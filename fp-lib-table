@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AO3400-5.8A") (type "KiCad") (uri "${KIPRJMOD}/Library/AO3400-5.8A") (options "") (descr ""))
+	(lib (name "BMI270") (type "KiCad") (uri "${KIPRJMOD}/Library/BMI270") (options "") (descr ""))
+	(lib (name "JS202011SCQN") (type "KiCad") (uri "${KIPRJMOD}/Library/JS202011SCQN") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/Library/MCP73831T_2ACI_OT/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "PTS526_SMG15_SMTR2_LFS") (type "KiCad") (uri "${KIPRJMOD}/Library/PTS526_SMG15_SMTR2_LFS") (options "") (descr ""))
+	(lib (name "footprints2") (type "KiCad") (uri "${KIPRJMOD}/Library/ul_1N4148W-7-F/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints3") (type "KiCad") (uri "${KIPRJMOD}/Library/ul_ESP32-C3-MINI-1U-H4/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints4") (type "KiCad") (uri "${KIPRJMOD}/Library/ul_TMB12A03/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints5") (type "KiCad") (uri "${KIPRJMOD}/Library/XZMER68W_3/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "RT9080-33GJ5") (type "KiCad") (uri "${KIPRJMOD}/Library/RT9080-33GJ5") (options "") (descr ""))
+)

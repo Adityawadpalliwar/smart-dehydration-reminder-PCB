@@ -658,13 +658,18 @@
       {
         "filename": "dehydration_reminder.kicad_sch",
         "name": "dehydration_reminder",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "ad1c299f-56fc-4369-b208-0452ea05375d"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "IC1-2,D1-2,C2-11,R4-14,#PWR1-21,#PWR24,#PWR26-27,CR1,S1-4,Q1,U2-7,J1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "ad1c299f-56fc-4369-b208-0452ea05375d",
+      "dehydration_reminder"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
