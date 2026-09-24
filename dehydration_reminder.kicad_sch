@@ -6197,22 +6197,10 @@
 		(uuid "45d4901f-b7f6-4d04-9985-2e399db848c6")
 	)
 	(junction
-		(at 45.72 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47141754-26ae-4400-906c-33f15aba73ea")
-	)
-	(junction
 		(at 266.7 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49880ed0-5fd7-496e-a31d-ca65f279f041")
-	)
-	(junction
-		(at 45.72 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4abec177-d041-4882-bbe9-3d2c9268ab00")
 	)
 	(junction
 		(at 266.7 110.49)
@@ -6590,7 +6578,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 45.72 85.09)
+			(xy 45.72 66.04) (xy 45.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7380,16 +7368,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 76.2) (xy 45.72 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "882826cf-ae4e-4de2-9559-4ca29383d80e")
-	)
-	(wire
-		(pts
 			(xy 135.89 111.76) (xy 142.24 111.76)
 		)
 		(stroke
@@ -7630,16 +7608,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab323ef1-bcc1-4bdd-a8fd-6437994e3c78")
-	)
-	(wire
-		(pts
 			(xy 219.71 74.93) (xy 226.06 74.93)
 		)
 		(stroke
@@ -7800,16 +7768,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 50.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d569439d-e4b0-43df-9e28-4ea95ac877dd")
-	)
-	(wire
-		(pts
 			(xy 266.7 87.63) (xy 266.7 90.17)
 		)
 		(stroke
@@ -7817,16 +7775,6 @@
 			(type default)
 		)
 		(uuid "d68ac99e-fe74-44c4-94e7-6d71979ae66f")
-	)
-	(wire
-		(pts
-			(xy 45.72 66.04) (xy 45.72 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7cac958-2971-4d66-8cfb-8a763b98fb16")
 	)
 	(wire
 		(pts
@@ -8067,16 +8015,6 @@
 			(type default)
 		)
 		(uuid "f5d2da99-58b2-4eb3-ad93-8f90a9137509")
-	)
-	(wire
-		(pts
-			(xy 40.64 68.58) (xy 45.72 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f685596b-6a1d-4780-bfbd-4e88e98f381f")
 	)
 	(wire
 		(pts
@@ -8629,7 +8567,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 85.09 0)
+		(at 45.72 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8640,7 +8578,7 @@
 		(fields_autoplaced yes)
 		(uuid "14db3a6d-187c-4605-a86b-a06608ac5143")
 		(property "Reference" "#PWR021"
-			(at 45.72 91.44 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8589,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 90.17 0)
+			(at 45.72 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8661,7 +8599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 85.09 0)
+			(at 45.72 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 85.09 0)
+			(at 45.72 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8683,7 +8621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 85.09 0)
+			(at 45.72 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8948,87 +8886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 40.64 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2bc6bfb3-a89a-4d85-b53e-95672e1d5dd4")
-		(property "Reference" "R3"
-			(at 36.068 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 35.814 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.862 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "972cf5ab-701f-4bac-a4b8-b0e8392519d3")
-		)
-		(pin "2"
-			(uuid "a36f1f01-f5f8-411c-b083-06c003f57bd2")
-		)
-		(instances
-			(project "dehydration_reminder"
-				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 101.6 180)
 		(unit 1)
@@ -9258,87 +9115,6 @@
 			(project "dehydration_reminder"
 				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39d42526-d950-4444-bee1-5cf3b4e9c393")
-		(property "Reference" "C1"
-			(at 44.196 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 43.688 73.152 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 51.7652 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99d2d87d-4b00-4ef4-85d4-6608ddf62e3f")
-		)
-		(pin "2"
-			(uuid "079d2791-c4f7-47e8-b291-ba927e434c4e")
-		)
-		(instances
-			(project "dehydration_reminder"
-				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
-					(reference "C1")
 					(unit 1)
 				)
 			)
