@@ -6245,6 +6245,12 @@
 		(uuid "6c108abc-de58-4a78-b295-438736a9a2e4")
 	)
 	(junction
+		(at 182.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e721aaa-2e26-46f2-9f8e-984c94157d43")
+	)
+	(junction
 		(at 142.24 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6255,6 +6261,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71831f5c-8fe2-4af5-8f41-3058334ba087")
+	)
+	(junction
+		(at 182.88 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7966b3bc-6b74-4fb8-8b72-7c355a25f734")
 	)
 	(junction
 		(at 129.54 27.94)
@@ -6309,6 +6321,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab487b1d-22b9-4881-a08b-ae0f7ea48522")
+	)
+	(junction
+		(at 182.88 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad25cb14-1b86-40c4-b5bd-b6d40944c891")
 	)
 	(junction
 		(at 266.7 85.09)
@@ -6441,10 +6459,6 @@
 		(uuid "3b3ded59-c9f8-42de-b118-a2544995b1df")
 	)
 	(no_connect
-		(at 226.06 118.11)
-		(uuid "41396a76-e8d9-4cd2-be3b-f5889a2821ce")
-	)
-	(no_connect
 		(at 198.12 53.34)
 		(uuid "41d73919-d4ce-4350-b016-65da80b6a204")
 	)
@@ -6453,20 +6467,12 @@
 		(uuid "5aab22bf-efb4-4cf8-9b44-40d0925b5da1")
 	)
 	(no_connect
-		(at 226.06 100.33)
-		(uuid "61dbb4c7-c74e-42ef-b79b-c51aa55f32ce")
-	)
-	(no_connect
 		(at 226.06 125.73)
 		(uuid "63c314c9-ff2d-4062-8f27-708e847a44d8")
 	)
 	(no_connect
 		(at 105.41 134.62)
 		(uuid "7f48a83b-0978-40ff-9552-3006ca35c88c")
-	)
-	(no_connect
-		(at 226.06 115.57)
-		(uuid "990a1140-3e20-4324-bf4a-7fb7a5c3a7f7")
 	)
 	(no_connect
 		(at 198.12 58.42)
@@ -6483,10 +6489,6 @@
 	(no_connect
 		(at 243.84 31.75)
 		(uuid "a8bf6fe7-3ae8-4d56-8e44-4435245d6911")
-	)
-	(no_connect
-		(at 226.06 97.79)
-		(uuid "b1b3a1b4-bbbb-43cf-9328-4134a7451a0b")
 	)
 	(no_connect
 		(at 226.06 102.87)
@@ -6578,6 +6580,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 31.75) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1f0333-beb8-4e79-9fdd-6c8888686be2")
+	)
+	(wire
+		(pts
 			(xy 45.72 76.2) (xy 45.72 85.09)
 		)
 		(stroke
@@ -6625,6 +6637,16 @@
 			(type default)
 		)
 		(uuid "1261d7f4-48a7-42c7-aca5-c9b6326c459f")
+	)
+	(wire
+		(pts
+			(xy 190.5 106.68) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15109381-b86f-4063-9881-dde9849ce5da")
 	)
 	(wire
 		(pts
@@ -6705,6 +6727,16 @@
 			(type default)
 		)
 		(uuid "1a948535-14bd-4276-b391-acfadf891eeb")
+	)
+	(wire
+		(pts
+			(xy 217.17 100.33) (xy 226.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da70aa4-b8b3-4a6e-bd65-3fd46ab8d445")
 	)
 	(wire
 		(pts
@@ -7068,6 +7100,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 31.75) (xy 185.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2b9f61-9483-4e59-91b6-0a2967491c1e")
+	)
+	(wire
+		(pts
 			(xy 129.54 27.94) (xy 129.54 34.29)
 		)
 		(stroke
@@ -7108,13 +7150,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 31.75) (xy 185.42 31.75)
+			(xy 171.45 31.75) (xy 182.88 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66f9efd2-514a-4d8e-bcbc-5a9825fdd1d8")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2bd317-f7b3-4b9c-89c8-2885ca1a5eb7")
 	)
 	(wire
 		(pts
@@ -7208,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 118.11) (xy 226.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b72f17f-6792-48b0-b6bb-1fa3a3e1e159")
+	)
+	(wire
+		(pts
 			(xy 266.7 125.73) (xy 266.7 128.27)
 		)
 		(stroke
@@ -7225,6 +7287,16 @@
 			(type default)
 		)
 		(uuid "7e0f15b9-17ec-478f-a0d9-addd90c6b39d")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8131bf6f-9258-45e5-b33e-132d1abd0f68")
 	)
 	(wire
 		(pts
@@ -7285,6 +7357,16 @@
 			(type default)
 		)
 		(uuid "854eda4d-d127-48cc-a022-69923d9a917e")
+	)
+	(wire
+		(pts
+			(xy 182.88 54.61) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f2b3c8-2aeb-4b2d-9c22-6b489c9a633d")
 	)
 	(wire
 		(pts
@@ -7468,6 +7550,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 60.96) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61b8fba-6676-47ff-be92-8e376c5f8ab1")
+	)
+	(wire
+		(pts
 			(xy 209.55 34.29) (xy 209.55 39.37)
 		)
 		(stroke
@@ -7648,6 +7740,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 106.68) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f3d061-b480-4113-9a6d-011be092f461")
+	)
+	(wire
+		(pts
 			(xy 96.52 43.18) (xy 96.52 48.26)
 		)
 		(stroke
@@ -7675,6 +7777,16 @@
 			(type default)
 		)
 		(uuid "ccb484e4-3061-4e17-8c5d-b02675d798aa")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d017aeb5-e1d0-4a60-8150-443c0c637fb8")
 	)
 	(wire
 		(pts
@@ -7778,6 +7890,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 105.41) (xy 210.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e3151a-d1dc-46e0-b638-b0ee7d37343e")
+	)
+	(wire
+		(pts
+			(xy 210.82 115.57) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63ca4d4-2e21-4888-947f-b4857f3f38c9")
+	)
+	(wire
+		(pts
 			(xy 215.9 135.89) (xy 226.06 135.89)
 		)
 		(stroke
@@ -7845,6 +7977,16 @@
 			(type default)
 		)
 		(uuid "ed3cfb96-1ee7-499f-806e-1a376f7f829b")
+	)
+	(wire
+		(pts
+			(xy 217.17 97.79) (xy 226.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed82979b-6cd5-49ac-95e8-c8d3c6bb1b66")
 	)
 	(wire
 		(pts
@@ -8037,6 +8179,16 @@
 		(uuid "300dc536-28cc-435e-b816-302ab5f68ab8")
 	)
 	(label "3.3v"
+		(at 257.81 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cc446f3-65a4-47fa-a119-3480af02bbb4")
+	)
+	(label "3.3v"
 		(at 31.75 132.08 0)
 		(effects
 			(font
@@ -8065,6 +8217,16 @@
 			(justify left bottom)
 		)
 		(uuid "666e5291-0703-4b03-b457-20d08fe8e28a")
+	)
+	(label "BUZZ"
+		(at 217.17 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68178deb-8cd4-46e2-bec5-8735cd1618bc")
 	)
 	(label "3.3v"
 		(at 219.71 74.93 0)
@@ -8136,6 +8298,16 @@
 		)
 		(uuid "a056fb90-8beb-4c2f-a6ca-69ccf96e05ad")
 	)
+	(label "ADC"
+		(at 182.88 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5841ddf-9657-4c3e-b3f3-e591668451c3")
+	)
 	(label "INT1"
 		(at 219.71 113.03 0)
 		(effects
@@ -8185,6 +8357,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1e0f01d-1811-4eff-94dd-5ae4fe8ee05e")
+	)
+	(label "ADC"
+		(at 217.17 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9a6930a-d89f-4aa3-8ea1-20e90aedf225")
 	)
 	(symbol
 		(lib_id "2026-09-19_12-13-52:ESP32-C3-MINI-1U-H4")
@@ -8524,6 +8706,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 190.5 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6c25a3-ae38-43dc-98e0-241e93eef348")
+		(property "Reference" "R12"
+			(at 193.04 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 193.04 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 188.722 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7b581dd-8fb4-4075-980f-433cf32014b9")
+		)
+		(pin "1"
+			(uuid "c57dd142-fa17-41ba-a0b3-fd26e1d44f8e")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 31.75 0)
 		(unit 1)
@@ -8557,7 +8821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 116.5352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9032,7 +9296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9192,7 +9456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +9536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.36 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -9352,7 +9616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -9795,7 +10059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.5152 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9838,6 +10102,88 @@
 			(project "dehydration_reminder"
 				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f956f93-fadd-4bbf-b4c7-fcfc98d3fb28")
+		(property "Reference" "R14"
+			(at 185.42 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 185.42 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.102 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3be37d1d-4d70-4538-ab5d-dc6bf6ac3465")
+		)
+		(pin "1"
+			(uuid "307bf4e1-7da0-4712-bdec-91af67ad11eb")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9955,7 +10301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.4152 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10114,7 +10460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 206.7052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.2052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10321,6 +10667,99 @@
 			(project "dehydration_reminder"
 				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 162.56 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "749480fe-263d-47dc-a458-9e6ae016aecd")
+		(property "Reference" "D1"
+			(at 165.1 42.8624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLUE  LED"
+			(at 165.1 45.4024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 162.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 162.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c236436b-9382-481e-907b-d4eef345378a")
+		)
+		(pin "2"
+			(uuid "2007ca18-8c1c-4fb8-9803-87afc988528c")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10563,7 +11002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10606,6 +11045,99 @@
 			(project "dehydration_reminder"
 				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d8a001-db4e-46c7-a28f-d9c5ecdbe41b")
+		(property "Reference" "D3"
+			(at 194.31 118.4274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN LED"
+			(at 194.31 120.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7890c343-8191-44df-a292-8b9f7b2e1812")
+		)
+		(pin "2"
+			(uuid "3ab87bc6-792f-43e7-85b0-ba75f0710c40")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10762,6 +11294,170 @@
 			(project "dehydration_reminder"
 				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9886f7ac-f14b-4bc4-87b8-2c12374306b4")
+		(property "Reference" "R11"
+			(at 180.34 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 180.34 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.022 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2019e0e-0a6a-4b9f-a194-a4accb74d9a3")
+		)
+		(pin "1"
+			(uuid "a95ea7a1-f5a2-44d4-92eb-d07bf25339a8")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0e03bb-b4e2-40d0-8df9-02192e020279")
+		(property "Reference" "R5"
+			(at 132.08 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120k"
+			(at 132.08 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127.762 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a8cdaa4-6560-490a-80f2-5c7ce6fc49f0")
+		)
+		(pin "1"
+			(uuid "46168738-e129-4e49-a16a-bddc8892e34b")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11084,99 +11780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 129.54 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3bdd594-ccd9-49e7-99d6-14e2df87b09b")
-		(property "Reference" "D1"
-			(at 133.35 38.4174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 133.35 40.9574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 129.54 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 129.54 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ba890f1-c6ec-460f-b323-14dd4e3d6f47")
-		)
-		(pin "2"
-			(uuid "2439ab8f-3862-4d67-8851-569ebf1a0b84")
-		)
-		(instances
-			(project "dehydration_reminder"
-				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AO3400-5.8A:AO3400-5.8A")
 		(at 29.21 157.48 0)
 		(unit 1)
@@ -11440,7 +12043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.36 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -11522,7 +12125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.262 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -12263,7 +12866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -12546,6 +13149,336 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 173.99 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c58cfd76-9034-4e0e-8edd-e1b82aa726f0")
+		(property "Reference" "C10"
+			(at 167.64 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 167.132 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 174.9552 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df296fd7-86b7-46e4-8f18-84cbbfd3e18f")
+		)
+		(pin "2"
+			(uuid "b8f839ab-1c3c-4949-b619-4de6b2988ca6")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73a9db3-c5e0-40f6-82b6-b2983b8cc42e")
+		(property "Reference" "#PWR018"
+			(at 190.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01937a36-5efc-4d87-9410-4de551930892")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 177.8 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c799da76-588c-4f96-9c34-1f54d796dde1")
+		(property "Reference" "D2"
+			(at 181.61 118.4274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED LED"
+			(at 181.61 120.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29154fe3-d7dc-491d-891f-024a68068fa4")
+		)
+		(pin "2"
+			(uuid "ffe00184-2c65-4b7f-8d21-42eadab24441")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7afeb6c-7893-4301-8c13-fe29a99a278d")
+		(property "Reference" "#PWR017"
+			(at 177.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c41d1f3-f818-483d-814a-22534fb639e7")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-09-20_11-48-09:1N4148W-7-F")
 		(at 31.75 151.13 90)
 		(unit 1)
@@ -12708,88 +13641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf682ae2-85fd-440c-bc45-b5e7b0a0c62f")
-		(property "Reference" "R5"
-			(at 165.1 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 165.1 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 160.782 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "58a8f835-afb3-4616-aec4-49e5da81521a")
-		)
-		(pin "1"
-			(uuid "c6ada0ea-0a6c-44ed-a17f-0ae2df34dbf1")
-		)
-		(instances
-			(project "dehydration_reminder"
-				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 35.56 0)
 		(unit 1)
@@ -12900,7 +13751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13112,6 +13963,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 182.88 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba85190-7e15-44d6-ab3f-83b4c05b47d4")
+		(property "Reference" "R15"
+			(at 185.42 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 185.42 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.102 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a522d1b-ca76-4a12-aa83-660fac5cc767")
+		)
+		(pin "1"
+			(uuid "e35e81b6-b4a5-4a72-9074-7b5179c91d74")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 165.1 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -13144,7 +14077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.322 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -13505,7 +14438,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "4.7K"
 			(at 140.97 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -13636,6 +14569,84 @@
 			(project "dehydration_reminder"
 				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fde51180-d1aa-4e63-9845-87dd285c66ab")
+		(property "Reference" "#PWR022"
+			(at 182.88 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e34c701f-f4eb-4f46-b5c2-7d314da558ca")
+		)
+		(instances
+			(project "dehydration_reminder"
+				(path "/ad1c299f-56fc-4369-b208-0452ea05375d"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
